@@ -1,4 +1,4 @@
-import static java.lang.System.out;
+"import static java.lang.System.out;
 import java.util.Scanner;
 public class mailMerge
 {
@@ -33,7 +33,7 @@ public class mailMerge
         out.println("How much would you like to donate?");
         donationAmount = keyboard.nextFloat();
 
-        personName = firstName + lastName;
+        personName = firstName + " " + lastName;
 
         System.out.println("Dear " + personName);
         System.out.println("");
